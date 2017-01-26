@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html ng-app="ninjaApp">
+<head>
+	<title>Ninja App</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<header ng-include="'views/header.html'"></header>
+  	<main ng-view></main>
+
+    
+	 <!--angular libraries-->
+  	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular-route.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular-messages.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.0/angular-animate.min.js"></script>
+
+
+
+	 <!--angular modules-->
+    <script src="./app.js"></script>
+
+    <!--controllers-->
+    <script src="controllers/ninja-ctrl.js"></script>
+    <script src="controllers/contact.js"></script>
+     <script src="controllers/login.js"></script>
+</body>
+</html>
