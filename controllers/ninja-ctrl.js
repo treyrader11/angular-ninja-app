@@ -38,28 +38,28 @@ app.controller('NinjaCtrl', ['$scope', '$http', function($scope, $http) {
 		"belt": "green",
 		"rate": 50,
 		"available": true,
-		"thumb": "http://orig02.deviantart.net/fd73/f/2009/151/b/c/yoshi_ninja_by_gazza1235.jpg"
+		"thumb": "images/yoshi.png"
 	}, 
 	{
 		"name": "Crystal",
 		"belt": "Yellow",
 		"rate": 30,
 		"available": true,
-		"thumb": "http://www.clipartkid.com/images/703/cartoon-ninja-pictures-clipart-best-hPOmpz-clipart.jpeg"
+		"thumb": "images/crystal.png"
 	}, 
 	{
 		"name": "Ryu",
 		"belt": "orange",
 		"rate": 10,
 		"available": true,
-		"thumb": "https://s-media-cache-ak0.pinimg.com/originals/fd/97/a7/fd97a74f13c4ae9d9fc33f9f532b9da0.jpg"
+		"thumb": "images/ryu.png"
 	}, 
 	{
 		"name": "Trey",
 		"belt": "black",
 		"rate": 1000,
 		"available": true,
-		"thumb": "https://www.facebook.com/photo.php?fbid=988259817853061&set=a.157601117585606.33614.100000071567790&type=3&theater"
+		"thumb": "images/flavicon2.png"
 	}, 
 	{
 		"name": "Shaun",
