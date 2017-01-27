@@ -6,8 +6,8 @@ app.config(['$routeProvider', function($routeProvider) {
 	//$locationProvider.html5Mode(true);
 
 	$routeProvider
-	.when('/', {
-		templateUrl: 'views/directory.html',
+	.when('/home', {
+		templateUrl: 'views/home.html',
 		controller: 'NinjaCtrl'
 	})
 	.when('/directory', {
@@ -19,7 +19,7 @@ app.config(['$routeProvider', function($routeProvider) {
 		controller: 'ContactCtrl'
 	})
 	.otherwise({
-		redirectTo: '/'
+		redirectTo: '/home'
 	});
 
 }]);
